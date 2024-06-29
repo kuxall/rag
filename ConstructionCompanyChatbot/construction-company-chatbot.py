@@ -2,7 +2,7 @@ from openai import OpenAI
 from queryretrievalfunction import query_and_retrieve
 
 # Set your OpenAI API key
-api_keys = "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"
+api_keys = "sk-<YOUR_API_KEY>"
 client = OpenAI(
     # This is the default and can be omitted
     api_key=api_keys,
