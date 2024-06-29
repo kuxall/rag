@@ -33,7 +33,7 @@ def generate_construction_data(num_entries=25):
             temperature=0.7,
         )
 
-        content = response.choices[0].message.content.strip()
+        content = response.choices[0].message.content
 
         data.append({
             "id": f"{topic}_{i+1}",
