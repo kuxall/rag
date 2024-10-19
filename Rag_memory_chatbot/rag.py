@@ -19,7 +19,7 @@ Usage:
 1. Set your OpenAI API key in the .env file
 2. Run the script using: streamlit run script_name.py
 
-Author: AI Assistant
+Author: Kushal Raj Sharma
 Date: June 28, 2024
 """
 
