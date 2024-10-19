@@ -58,6 +58,12 @@ def chatbot():
 
         print("Construction Company Chatbot:", response)
 
+        # Guide the user on what to do next
+        print("\nWhat to do next:")
+        print("1. You can ask another question related to construction.")
+        print("2. If you are done, type 'exit', 'quit', or 'bye' to end the chat.")
+        print("3. For more information, refer to the README file for potential improvements and deployment steps.")
+
 
 if __name__ == "__main__":
     chatbot()
